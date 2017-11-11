@@ -1,12 +1,14 @@
-<div class='fade-in'>
-    <h1 id="welcome">Welcome</h1>
-    <p>Find me in app/views/welcome/index.html.erb</p>
+<div class="container">
+    <div class='fade-in'>
+        <h1 id="welcome">Welcome</h1>
+        <p>Find me in app/views/welcome/index.html.erb</p>
 
-    <%= link_to 'My Blog', controller: 'articles' %>
-</div>
+        <%= link_to 'My Blog', controller: 'articles' %>
+    </div>
 
-<div class="row">
-    <div class="col-md-4"><h4>Bootstrap Column 1</h4></div>
-    <div class="col-md-4"><h4>Bootstrap Column 2</h4></div>
-    <div class="col-md-4"><h4>Bootstrap Column 3</h4></div>
+    <div class="row bootrow">
+        <div class="col-sm-4"><h4>Bootstrap Column 1</h4><%= image_tag('blog1', class:'img-fluid') %></div>
+        <div class="col-sm-4"><h4>Bootstrap Column 2</h4><%= image_tag('blog2', class:'img-fluid') %></div>
+        <div class="col-sm-4"><h4>Bootstrap Column 3</h4><%= image_tag('blog3', class:'img-fluid') %></div>
+    </div>
 </div>
