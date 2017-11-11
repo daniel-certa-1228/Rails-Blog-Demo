@@ -9,3 +9,13 @@
 .bootrow {
     margin-top: 1em;
 }
+
+.fade-in {
+    animation: fadein 1s
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+

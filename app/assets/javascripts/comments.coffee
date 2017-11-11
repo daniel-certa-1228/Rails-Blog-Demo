@@ -4,13 +4,10 @@
 
 $(document).on 'turbolinks:load', ->
   $('.container').on 'click', (event) ->
-    target = undefined
-    # console.log 'link clicked'
     target = event.target
-    console.log target.className
-    if $(target).hasClass('comment')
+    # console.log target.className
+    if $(target).hasClass 'comment' 
       $(target).toggleClass 'color-toggle'
-      # console.log("SEV")
     return
   return
 
