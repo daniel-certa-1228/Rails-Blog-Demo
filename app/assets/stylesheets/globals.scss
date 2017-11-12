@@ -2,7 +2,11 @@
 @import "articles";
 @import "welcome";
 @import "comments";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 body {
     background-color: lightsteelblue;
+    font: {
+        family: 'Open Sans', sans-serif;
+    }
 }
